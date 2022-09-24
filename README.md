@@ -4,6 +4,6 @@ PIDOR
 ## TY PIDOR //header 2
 
 
-UEBANCH UEBANCH
-gusi gusi ga ga ga
-huerga
+UEBANCH UEBANCH  
+gusi gusi ga ga ga  
+huerga  
