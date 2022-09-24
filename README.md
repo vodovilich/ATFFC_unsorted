@@ -1,4 +1,4 @@
 # ATFFC //header 1
-HI HUI  //normal text
-PIDOR   //normal text
+HI HUI 
+PIDOR 
 ## TY PIDOR //header 2
