@@ -1,11 +1,7 @@
 # ATFFC //header 1
-HI HUI            
-PIDOR 
-## TY PIDOR //header 2
 
+ARSE TICKLERS FAGGOT FAN CLUB
 
-UEBANCH UEBANCH  
-gusi gusi ga ga ga  
-huerga 
+LAB environment for arse tickling
 
-deb2 added 
+DEB11-02: NTP client
