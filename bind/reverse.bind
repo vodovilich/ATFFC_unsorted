@@ -1,0 +1,15 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	debian11-02.atffc.local. root.debian11-02.atffc.localhost. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	debian11-02.atffc.local.
+10.20.168.192.in-addr.arpa	IN	PTR	debian11-02.atffc.local.
+10.10.168.192.in-addr.arpa	IN	PTR	debian11-01-atffc.local.
+255.255.168.192.in-addr.arpa	IN	PTR	rtr-157-01.atffc.local.
