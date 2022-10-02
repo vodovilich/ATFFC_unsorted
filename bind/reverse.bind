@@ -10,6 +10,7 @@ $TTL	604800
 			 604800 )	; Negative Cache TTL
 ;
 @	IN	NS	debian11-02.atffc.local.
-10.20.168.192.in-addr.arpa	IN	PTR	debian11-02.atffc.local.
-10.10.168.192.in-addr.arpa	IN	PTR	debian11-01-atffc.local.
-255.255.168.192.in-addr.arpa	IN	PTR	rtr-157-01.atffc.local.
+10.20.168.192.in-addr.arpa.	IN	PTR	debian11-02.atffc.local.
+10.10.168.192.in-addr.arpa.	IN	PTR	debian11-01.atffc.local.
+255.255.168.192.in-addr.arpa.	IN	PTR	rtr-157-01.atffc.local.
+20.30.168.192.in-addr.arpa.	IN	PTR	sw-iron-01.atffc.local.

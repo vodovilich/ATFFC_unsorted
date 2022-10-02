@@ -7,7 +7,7 @@ zone "atffc.local" {
 	file "/var/lib/bind/forward.bind";
 	};
 
-zone "10.168.192.in-addr.arpa" {
+zone "168.192.in-addr.arpa" {
 	type master;
 	file "/var/lib/bind/reverse.bind";
 	};
