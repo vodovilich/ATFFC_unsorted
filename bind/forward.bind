@@ -1,19 +1,20 @@
 ;
-; BIND data file for local loopback interface
+; BIND data file for local interface
 ;
-$TTL	604800
-@	IN	SOA	debian11-02.atffc.local. root.debian11-02.atffc.localhost. (
-			      2		; Serial
-			 604800		; Refresh
-			  86400		; Retry
-			2419200		; Expire
-			 604800 )	; Negative Cache TTL
+
+$TTL	64800
+@	IN	SOA	debian11-01.atffc.hui. root.debian11-01.atffc.hui. (
+		2		; Serial
+		604800		; Refresh
+		86400		; Retry
+		2419200		; Expire
+		604800 )	; Negative Cache TTL
+
 ;
-@	IN	NS	debian11-02.atffc.local.
-@	IN	A	192.168.20.10
+
+@	IN	NS	debian11-01.atffc.hui.
+@	IN	A	192.168.10.10
 @	IN	AAAA	::1
 
-debian11-02	IN	A	192.168.20.10
 debian11-01	IN	A	192.168.10.10
-sw-iron-01	IN	A	192.168.30.20
-rtr-157-01	IN	A	192.168.255.255
+iol-rtr157-01	IN	A	192.168.255.1
