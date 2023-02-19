@@ -2,17 +2,26 @@
 // Do any local configuration here
 //
 
-zone "atffc.local" {
-	type master;
-	file "/var/lib/bind/forward.bind";
-	};
-
-zone "168.192.in-addr.arpa" {
-	type master;
-	file "/var/lib/bind/reverse.bind";
-	};
-
 // Consider adding the 1918 zones here, if they are not used in your
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "atffc.hui" {
+	type master;
+	file "/var/lib/bind/forward.bind";
+	};
+
+zone "10.168.192.in-addr.arpa" {
+	type master;
+	file "/var/lib/bind/reverse.bind";
+	};
+
+zone "110.168.192.in-addr.arpa" {
+	type master;
+	file "/var/lib/bind/reverse.bind";
+	};
+
+zone "255.168.192.in-addr.arpa" {
+	type master;
+	file "/var/lib/bind/reverse.bind";
+	};
