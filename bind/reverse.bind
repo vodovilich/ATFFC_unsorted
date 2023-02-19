@@ -13,4 +13,5 @@ $TTL    64800
 
 @	IN	NS	debian11-01.atffc.hui.
 10.10.168.192.in-addr.arpa.	IN	PTR	debian11-01.atffc.hui.
-1.255.168.192.in-addr.arpa	IN	PTR	iol-rtr157-01.atffc.hui.
+1.255.168.192.in-addr.arpa.	IN	PTR	iol-rtr157-01.atffc.hui.
+10.110.168.192.in-addr.arpa.	IN	PTR	debian11-srv2.atffc.hui.
